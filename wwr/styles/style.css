@@ -1,0 +1,65 @@
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+    background-color:bisque
+}
+
+header{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+    background-color:gainsboro
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  nav a:hover{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+    background-color:black;
+  }
+
+  #hero-msg h1:hero-msg h4{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .button-box{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  main section{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #background{
+    height: 725px;
+
+  }
+
+  
