@@ -1,51 +1,74 @@
 body{
     max-width: 1600px;
-    margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
     text-align: center;
-    background-color:bisque
+    background-color:white
+
+  
 }
 
 header{
     max-width: 1600px;
     margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
-    text-align: center;
-    background-color:gainsboro
+    text-align: left;
+    background-color:#ffd166c6
 }
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
     text-align: center;
+  }
+
+  
+  nav a{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:#ffd166a2;
+    color: white;
+    text-decoration: none;
   }
 
   nav a:hover{
     max-width: 1600px;
     margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
     text-align: center;
-    background-color:black;
+    background-color:#38a3a561;
   }
 
-  #hero-msg h1:hero-msg h4{
+  .logo{
+    width: 80px;
+  }
+
+  .icon{
+    width: 80px;
+  }
+
+
+  #hero-msg h1{
     max-width: 1600px;
-    margin: 0 auto;
-    padding: 4em;
+
     font-size: 18px;
     text-align: center;
+  }
+
+  hero-msg h4{
+    max-width: 1600px;
+
+    font-size: 18px;
+    text-align: center;
+  }
+  
+
+
+  #hero-img{
+    width: 100%;
+    height: 900px;
   }
 
   .button-box{
     max-width: 1600px;
     margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
     text-align: center;
   }
 
@@ -59,7 +82,69 @@ header{
 
   #background{
     height: 725px;
-
+    background-color:white;
   }
+
+    .home-title {
+      color: #38A3A5;
+  
+    }
+
+    h4 {
+      color: #22577A;
+  
+    }
+
+    .book, .join {
+      color: #57CC99;
+      text-decoration: none;
+    }
+
+
+    .book:hover, .join:hover{
+      color: #57cc995c;
+    }
+
+    .msg h2{
+      color: #38A3A5;
+      
+    }
+    .msg p{
+      color: #22577A;
+      
+    }
+
+    footer{
+      color:#22577A;
+      
+
+    }
+
+    footer a{
+      color:#57CC99;
+      text-decoration:none;
+
+      
+    }
+
+    footer a:hover{
+      color:#57cc995c;
+      
+      
+    }
+
+    footer p {
+      font-size: 1.2em;
+    }
+
+
+    footer p a:hover {
+      text-decoration: underline;
+      
+    }
+
+  
+  
+  
 
   
