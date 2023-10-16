@@ -1,0 +1,8 @@
+body{
+    background-color: grey;
+}
+
+div.box{
+    width: 150px;
+    display: inline-block;
+}

@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Josefin+Sans:ital,wght@1,700&family=Sue+Ellen+Francisco&display=swap');
+
+
+
 body{
     max-width: 1600px;
     text-align: center;
-    background-color:white
+    background-color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 
   
+}
+
+.home-title{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2em;
+
 }
 
 header{
@@ -27,6 +41,7 @@ header{
     background-color:#ffd166a2;
     color: white;
     text-decoration: none;
+    padding: 35px;
   }
 
   nav a:hover{
@@ -36,12 +51,17 @@ header{
     background-color:#38a3a561;
   }
 
+  #logo_link{
+    padding-top: 5px;
+  }
+
   .logo{
     width: 80px;
   }
 
   .icon{
     width: 80px;
+    padding-top: 10px;
   }
 
 
@@ -87,7 +107,19 @@ header{
 
     .home-title {
       color: #38A3A5;
+      margin-top: 10px;
   
+    }
+
+    .msg{
+      background-color:azure;
+      line-height: 1.5em;
+     
+      padding: 35px;
+    }
+
+    h2{
+      margin: 0;
     }
 
     h4 {
@@ -98,24 +130,38 @@ header{
     .book, .join {
       color: #57CC99;
       text-decoration: none;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 18px;
+      padding: 15px 30px;
+      margin-top: 50px;
+      border-radius: 5px;
     }
 
 
     .book:hover, .join:hover{
       color: #57cc995c;
+    
     }
+
 
     .msg h2{
       color: #38A3A5;
-      
+      --heading-font: "Sue Ellen Francisco";
     }
     .msg p{
       color: #22577A;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 1.5em;
+      padding-bottom: 15px;
       
     }
 
+  
+
     footer{
       color:#22577A;
+      padding: 25px 50px;
+      margin-top: 200px;
       
 
     }
@@ -141,6 +187,30 @@ header{
     footer p a:hover {
       text-decoration: underline;
       
+    }
+
+    footer.social img{
+      padding-top: 15px;
+    }
+
+    .rivers-card{
+      margin: 200px 0;
+    }
+
+    .camping-card{
+      margin: 200px 0;
+    }
+
+    .rapids-card{
+      margin: 200px 0;
+    }
+
+    .card-img{
+      border: 10px solid #38A3A5;
+    }
+
+    main section img{
+      box-sizing: border-box;
     }
 
   
